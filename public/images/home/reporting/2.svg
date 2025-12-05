@@ -1,0 +1,6 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="10" cy="10.7671" r="7" stroke="#2F2B3D" stroke-opacity="0.9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 21.7671L15 15.7671" stroke="#2F2B3D" stroke-opacity="0.9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7.76709H9.5C8.67157 7.76709 8 8.43866 8 9.26709C8 10.0955 8.67157 10.7671 9.5 10.7671H10.5C11.3284 10.7671 12 11.4387 12 12.2671C12 13.0955 11.3284 13.7671 10.5 13.7671H8" stroke="#2F2B3D" stroke-opacity="0.9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.75 13.7671C10.75 13.3529 10.4142 13.0171 10 13.0171C9.58579 13.0171 9.25 13.3529 9.25 13.7671H10H10.75ZM9.25 14.7671C9.25 15.1813 9.58579 15.5171 10 15.5171C10.4142 15.5171 10.75 15.1813 10.75 14.7671H10H9.25ZM10.75 6.76709C10.75 6.35288 10.4142 6.01709 10 6.01709C9.58579 6.01709 9.25 6.35288 9.25 6.76709H10H10.75ZM9.25 7.76709C9.25 8.1813 9.58579 8.51709 10 8.51709C10.4142 8.51709 10.75 8.1813 10.75 7.76709H10H9.25ZM10 13.7671H9.25V14.7671H10H10.75V13.7671H10ZM10 6.76709H9.25V7.76709H10H10.75V6.76709H10Z" fill="#2F2B3D" fill-opacity="0.9"/>
+</svg>
