@@ -1,6 +1,4 @@
-import gql from 'graphql-tag';
-
-export const getShopPoliciesQuery = gql`
+export const getShopPoliciesQuery = /* GraphQL */ `
   query getShopPolicies {
     shop {
       privacyPolicy {
