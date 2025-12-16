@@ -17,7 +17,7 @@ const Header = () => {
       const sideBar = document.querySelector(".sideBar");
       const menu = document.querySelector(".menu");
       const header = document.querySelector("header");
-      
+
       body?.classList.toggle("active");
       header?.classList.toggle("header_bg");
       sideBar?.classList.toggle("active");
@@ -55,15 +55,15 @@ const Header = () => {
       title: "Products",
       dropDown: [
         {
-          link: "#",
-          title: "barber essentials",
+          link: "/collections/barber-essentials",
+          title: "Barber Essentials",
         },
         {
-          link: "#",
+          link: "/collections/accessories",
           title: "Accessories",
         },
         {
-          link: "#",
+          link: "/collections/merchandise",
           title: "Merchandise",
         },
       ],
@@ -78,7 +78,12 @@ const Header = () => {
             href={"/"}
             className="lg:w-[length:var(--vw174)] lg:h-[length:var(--vw75)] w-[110px] h-[47px] sm:w-[200px] sm:h-[86px] relative z-[2]"
           >
-            <Image fill alt="logo" src={"/images/icons/logo.png"} className="object-contain" />
+            <Image
+              fill
+              alt="logo"
+              src={"/images/icons/logo.png"}
+              className="object-contain"
+            />
           </Link>
           <nav className="sideBar absolute flex flex-wrap items-center lg:gap-x-vw24 inset-0 w-full fullVhcm fullSvhcm lg:static lg:!size-[unset] px-5 pt-36 pb-5 lg:p-0">
             <ul className="flex lg:flex-row flex-col gap-y-6 lg:items-center lg:gap-x-vw24 capitalize w-full lg:w-auto">
@@ -125,7 +130,7 @@ const Header = () => {
                     <div
                       ref={dropDown}
                       style={{ maxHeight: "0px" }}
-                      className="lg:w-[12vw] lg:absolute lg:left-[-3vw] lg:top-vw40 lg:!max-h-[unset] lg:opacity-0 lg:pointer-events-none lg:group-hover:pointer-events-auto lg:scale-95 lg:group-hover:opacity-100 lg:group-hover:scale-100 lg:origin-bottom overflow-hidden lg:overflow-visible transition-all duration-500 lg:duration-300"
+                      className="lg:w-[12vw] lg:absolute lg:left-[-3vw] lg:top-[2.5vw] lg:!max-h-[unset] lg:opacity-0 lg:pointer-events-none lg:group-hover:pointer-events-auto lg:scale-95 lg:group-hover:opacity-100 lg:group-hover:scale-100 lg:origin-bottom overflow-hidden lg:overflow-visible transition-all duration-500 lg:duration-300"
                     >
                       <ul className="flex flex-col  font-medium tracking-normal border border-green bg-dullwhite lg:rounded-vw8 rounded-[8px]">
                         {navLink.dropDown.map((dropDownLink, ind) => (
@@ -160,7 +165,7 @@ const Header = () => {
                 <HiOutlineUser color="white" className="lg:size-vw20 size-5" />
               </div>
               <div className="flex items-center">
-                  <CartDrawer />
+                <CartDrawer />
               </div>
             </div>
           </nav>
