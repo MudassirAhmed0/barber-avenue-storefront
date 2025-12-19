@@ -158,12 +158,12 @@ const Header = () => {
               ))}
             </ul>
             <div className="flex flex-wrap justify-between lg:items-center lg:gap-x-vw24 gap-4 w-full lg:w-auto">
-              <div
+              {/* <div
                 onClick={toggleSidebar}
                 className="rounded-full cursor-pointer lg:p-vw12 p-4 bg-[color:var(--color-green)] flex items-center justify-center"
               >
                 <HiOutlineUser color="white" className="lg:size-vw20 size-5" />
-              </div>
+              </div> */}
               <div className="flex items-center">
                 <CartDrawer />
               </div>
